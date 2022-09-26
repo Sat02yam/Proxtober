@@ -23,10 +23,12 @@ body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    .mobb{
+        display: none;
+    }
     img{
         width: auto;
         height: 100%;
-        
     }
 }
 .tagline{
@@ -142,3 +144,72 @@ body{
     }
 }
 
+@media only screen and (max-width: 768px){
+    .dsk{
+        display: none;
+    }
+    .mobb{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0076C4;
+    }
+
+    .tagline h1{
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 32px;
+        width: 80vw;
+    }
+
+    .irow{
+        .icons{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            .row{
+                margin: 20px 0px;
+                width: 80vw;
+            }
+        }
+        .icond{
+            display: none;
+        }
+
+        .cta{
+            button{
+                width: 64vw;
+            }
+        }
+    }
+
+    .clik{
+        flex-direction: column;
+        height: 40vh;
+    }
+
+    .one h3{
+        width: 80vw;
+        text-align: justify;
+    }
+
+    .one h1{
+        text-align: center;
+    }
+    .hero{
+        display: flex;
+            align-items: center;
+            justify-content: space-between;
+        .mobb{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    .footer{
+        a img{
+            width: 3.5rem;
+            margin-bottom: 40px;
+        }
+    }
+}

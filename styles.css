@@ -34,6 +34,10 @@ body {
   overflow: hidden;
 }
 
+.hero .mobb {
+  display: none;
+}
+
 .hero img {
   width: auto;
   height: 100%;
@@ -200,5 +204,89 @@ body {
 
 .footer a img {
   width: 5vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .dsk {
+    display: none;
+  }
+  .mobb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #0076C4;
+  }
+  .tagline h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 32px;
+    width: 80vw;
+  }
+  .irow .icons {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .irow .icons .row {
+    margin: 20px 0px;
+    width: 80vw;
+  }
+  .irow .icond {
+    display: none;
+  }
+  .irow .cta button {
+    width: 64vw;
+  }
+  .clik {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 40vh;
+  }
+  .one h3 {
+    width: 80vw;
+    text-align: justify;
+  }
+  .one h1 {
+    text-align: center;
+  }
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .hero .mobb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer a img {
+    width: 3.5rem;
+    margin-bottom: 40px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
